@@ -1,22 +1,37 @@
 @import "partials/settings";
 @import "../public/bower_components/foundation/scss/foundation";
+$teal: #00CCCC;
 body{
   background-color: white;
 }
-header{
+header#header_block{
+  background-image: url('/images/border.png');
+  background-repeat: repeat-x;
 
   background-color: black;
-}
-
-#right_nav{
-  text-transform: uppercase;
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  li{
-    display: inline-block;
-    a{
-      width: 60px;
+  .row {
+    .columns {
+      ul#right_nav{
+        margin-top: 15px;
+        text-transform: uppercase;
+        list-style-type: none;
+        border-bottom: 5px solid $teal; 
+        li{
+          display: inline-block;
+          padding: 10px;
+          
+          &:hover a {
+            color: white;
+          }
+          a{
+            
+            color: $teal;
+            width: 60px;
+          }
+        }
+      }
     }
   }
 }
+
+

@@ -5559,15 +5559,20 @@ th.hide-for-touch {
 body {
   background-color: white; }
 
-header {
+header#header_block {
+  background-image: url('/images/border.png');
+  background-repeat: repeat-x;
   background-color: black; }
-
-#right_nav {
-  text-transform: uppercase;
-  list-style-type: none;
-  margin: 0;
-  padding: 0; }
-  #right_nav li {
-    display: inline-block; }
-    #right_nav li a {
-      width: 60px; }
+  header#header_block .row .columns ul#right_nav {
+    margin-top: 15px;
+    text-transform: uppercase;
+    list-style-type: none;
+    border-bottom: 5px solid #00CCCC; }
+    header#header_block .row .columns ul#right_nav li {
+      display: inline-block;
+      padding: 10px; }
+      header#header_block .row .columns ul#right_nav li:hover a {
+        color: white; }
+      header#header_block .row .columns ul#right_nav li a {
+        color: #00CCCC;
+        width: 60px; }
