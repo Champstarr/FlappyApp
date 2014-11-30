@@ -5595,3 +5595,28 @@ header#header_block {
     background-repeat: no-repeat;
     background-size: contain;
     border: 5px solid black; }
+  #content #top .row .columns #features #featnav {
+    max-width: 100%;
+    height: 237px;
+    list-style: none;
+    text-align: center;
+    background-color: #00CCCC; }
+    #content #top .row .columns #features #featnav li {
+      border: 1px solid gray;
+      height: 47.4px;
+      text-align: center; }
+      #content #top .row .columns #features #featnav li .fftext {
+        text-transform: uppercase;
+        font-weight: bold;
+        color: #00CCCC;
+        background-color: black; }
+      #content #top .row .columns #features #featnav li .ftext {
+        text-transform: uppercase;
+        color: black;
+        font-weight: bold; }
+      #content #top .row .columns #features #featnav li .fnumbers {
+        color: white; }
+    #content #top .row .columns #features #featnav li#ff {
+      background-color: black; }
+  #content #top .row .columns #bottom p {
+    font-weight: bold; }
