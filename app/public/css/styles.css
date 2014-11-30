@@ -5558,3 +5558,16 @@ th.hide-for-touch {
 
 body {
   background-color: blue; }
+
+header {
+  background-color: black; }
+
+#right_nav {
+  text-transform: uppercase;
+  list-style-type: none;
+  margin: 0;
+  padding: 0; }
+  #right_nav li {
+    display: inline-block; }
+    #right_nav li a {
+      width: 60px; }
