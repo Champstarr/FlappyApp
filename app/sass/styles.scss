@@ -46,69 +46,45 @@ header#header_block{
 #content {
   background-color: white;
   padding-top: 50px;
-  #top {
-    .row{
-      .columns{
-        #scenery{
-          max-width: 100%;
-          height: 237px;
-          background-image: url('/images/scenery.png');
-          background-repeat: no-repeat;
-          background-size: contain; 
-          border: 5px solid black;
-        }
-        #features{
-        
-          #featnav{
-            max-width: 100%;
-            height: 237px;
-            list-style: none;
-            text-align: center;
-            background-color: $teal;
-            li{
-              border: 1px solid gray;
-              height: 47.4px;
-              text-align: center;
-
-              .fftext{
-                text-transform: uppercase;
-                font-weight: bold;
-                color: $teal;
-                background-color: black;
-
-
-              }
-              .ftext{
-                text-transform: uppercase;
-                color: black;
-                font-weight: bold;
-
-              }
-              .fnumbers{
-                color: white;
-              }
-            }
-            li#ff{
-              background-color: black;
-            }
-          }
-        }
-        #bottom{
-          p{
-            font-weight: bold;
-
-          }
-        }
-      }
-
-    }
-
-  }
-
-
-
-
-
-
 }
+#scenery{
+  max-width: 100%;
+  height: 237px;
+  background-image: url('/images/scenery.png');
+  background-repeat: no-repeat;
+  background-size: contain; 
+  border: 5px solid black;
+}
+#features{
+  #featnav{
+    max-width: 100%;
+    height: 237px;
+    list-style: none;
+    text-align: center;
+    background-color: $teal;
+    li{
+      border: 1px solid gray;
+      height: 47.4px;
+      text-align: center;
+      &#ff{
+        background-color: black;
+      }
+      .fftext{
+        text-transform: uppercase;
+        font-weight: bold;
+        color: $teal;
+        background-color: black;
+      }
+      .ftext{
+        text-transform: uppercase;
+        color: black;
+        font-weight: bold;
+      }
+      .fnumbers{
+        color: white;
+      }
+    }
+  }
+}
+
 
