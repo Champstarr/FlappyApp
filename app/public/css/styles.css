@@ -5563,6 +5563,14 @@ header#header_block {
   background-image: url('/images/border.png');
   background-repeat: repeat-x;
   background-color: black; }
+  header#header_block:hover {
+    color: white; }
+  header#header_block .row span#flappy {
+    color: #00CCCC;
+    padding-top: 15px; }
+  header#header_block .row span#app {
+    color: #00CCCC;
+    padding-top: 15px; }
   header#header_block .row .columns ul#right_nav {
     margin-top: 15px;
     text-transform: uppercase;
@@ -5576,3 +5584,14 @@ header#header_block {
       header#header_block .row .columns ul#right_nav li a {
         color: #00CCCC;
         width: 60px; }
+
+#content {
+  background-color: white;
+  padding-top: 50px; }
+  #content #top .row .columns #scenery {
+    max-width: 100%;
+    height: 237px;
+    background-image: url('/images/scenery.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: 5px solid black; }

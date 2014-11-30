@@ -7,9 +7,20 @@ body{
 header#header_block{
   background-image: url('/images/border.png');
   background-repeat: repeat-x;
-
   background-color: black;
+  &:hover{
+    color: white;
+  }
   .row {
+    span#flappy {
+      color: $teal;
+      padding-top: 15px;
+    }
+    span#app{
+      color: $teal;
+      padding-top: 15px;
+    }
+
     .columns {
       ul#right_nav{
         margin-top: 15px;
@@ -23,8 +34,7 @@ header#header_block{
           &:hover a {
             color: white;
           }
-          a{
-            
+          a{          
             color: $teal;
             width: 60px;
           }
@@ -33,5 +43,28 @@ header#header_block{
     }
   }
 }
+#content {
+  background-color: white;
+  padding-top: 50px;
+  #top {
+    .row{
+      .columns{
+        #scenery{
+          max-width: 100%;
+          height: 237px;
+          background-image: url('/images/scenery.png');
+          background-repeat: no-repeat;
+          background-size: contain; 
+          border: 5px solid black;
+        }
+      }
+    }
+  }
 
+
+
+
+
+
+}
 
