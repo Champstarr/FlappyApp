@@ -1,55 +1,74 @@
 
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <script src="/bower_components/modernizr/modernizr.js"></script>
-  <link rel="stylesheet" type="text/css" href="/css/styles.css">
-  <title>FlappyApp</title>  
-</head>
-  <body>
-    <header id="header_block">
-      <div class="row">
-        <div class="large-6 medium-6 small-6 columns">
-          <h1><a href="#">
-          <div id="logo_image"></div>
-          <span id="flappy">FLAPPY</span> <span id= "app">APP</span></a></h1>
-        </div>          
-        <div class="large-6 medium-6 small-6 columns">
-          <ul id="right_nav">
-            <li><a href="#">about</a></li>
-            <li><a href="#">specs</a></li>
-            <li><a href="#">pricing</a></li>
-            <li><a href="#">contact</a></li>
-            <li><a href="#">sign up</a></li>
-          </ul>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="/bower_components/modernizr/modernizr.js"></script>
+    <link rel="stylesheet" type="text/css" href="/css/styles.css">
+    <title>FlappyApp</title>  
+  </head>
+    <body>
+      <header id="header_block">
+        <div class="row">
+          <div class="large-6 medium-6 small-6 columns">
+            <h1><a href="#">
+            <div id="logo_image"></div>
+            <span id="flappy">FLAPPY</span> <span id="app">APP</span></a></h1>
+          </div>          
+          <div class="large-6 medium-6 small-6 columns">
+            <ul id="right_nav">
+              <li><a href="#">about</a></li>
+              <li><a href="#">specs</a></li>
+              <li><a href="#">pricing</a></li>
+              <li><a href="#">contact</a></li>
+              <li><a href="#">sign up</a></li>
+            </ul>
+          </div>
         </div>
-      </div>
-    </header>
-    <div id="content">
-      <div class="row">
-        <section id= "scenery">        
-            <div class="large-8 medium-8 small-8"></div>
-            <div class="large-4 medium-4 small-4"></div> 
-        </section>
-      </div>
-      <div class="row">
-        <section id ="features">
-          <div class="large-12 medium-12 small-12">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. etiam fringilla purus quis eros euismod sodales. Nullam sed justo quis augue imperdiet pulvinar nec nec dolor. Pellentesque tempor scelerisque accumsan.
-
+      </header>
+      <div id="content">
+        <section id="top">
+          <div class="row">      
+            <div class="large-8 medium-8 small-8 columns">
+             <div id="scenery"></div>
+            </div>
+            <div class="large-4 medium-4 small-4 columns">
+            <div id="features">
+              <ul id="featnav">
+                <li><span class="ftext">features</span></li>
+                <li><span class="fnumbers">23</span><span class="ftext"> different modes</span></li>
+                <li><span class="fnumbers">500</span><span class="ftext"> options</span></li>
+                <li><span class="ftext">over<span class= "fnumbers"> 9000</span> points</span></li>
+                <li><span class="fnumbers">2X</span><span class="ftext"> the flappiness of v1</span></li>
+              </ul>
+            </div> 
           </div>
         </section>
+        <div class="row">     
+          <div class="large-12 medium-12 small-12 columns">
+            <section id="bottom">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. etiam fringilla purus quis eros euismod sodales. Nullam sed justo quis augue imperdiet pulvinar nec nec dolor. Pellentesque tempor scelerisque accumsan.
+            </section>
+          </div>      
+        </div>
+      </div><!-- end content -->
+      <div id="index">
+        <div class="row">
+          <div class="large-4 medium-4 small-4 columns"></div>
+          <div class="large-4 medium-4 small-4 columns"></div>
+          <div class="large-4 medium-4 small-4 columns"></div>
+        </div>    
       </div>
-    </div>
+      <footer></footer>
 
 
-    
-    <script src="/bower_components/jquery/dist/jquery.min.js"></script>
-    <script src="/bower_components/foundation/js/foundation.min.js"></script>
-    <script>
-     $(document).foundation();
-    </script>
-  </body>
+
+      
+      <script src="/bower_components/jquery/dist/jquery.min.js"></script>
+      <script src="/bower_components/foundation/js/foundation.min.js"></script>
+      <script>
+       $(document).foundation();
+      </script>
+    </body>
 </html>
